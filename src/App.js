@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import React from "react";
 import Weather from "./Weather";
 
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Helloworld</h1>
-        <Weather city="Tokyo" />
+        <Weather city="" />
         <a
           className="App-link"
           href="https://reactjs.org"

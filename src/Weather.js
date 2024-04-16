@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import LoadingOverlay from "react-loading-overlay-nextgen";
 
 export default function Weather(props) {
   function handleResponse(response) {
@@ -13,9 +12,5 @@ export default function Weather(props) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=${units}`;
 
   axios.get(apiUrl).then(handleResponse);
-  return (
-    <LoadingOverlay active={true} spinner text="wait a sec...">
-      <p>Some content or children or something.</p>
-    </LoadingOverlay>
-  );
+  return <h1> Helloworld from weather.js</h1>;
 }

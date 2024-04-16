@@ -14,7 +14,7 @@ export default function Weather(props) {
 
   axios.get(apiUrl).then(handleResponse);
   return (
-    <LoadingOverlay active={true} spinner text="wait a bit...">
+    <LoadingOverlay active={true} spinner text="wait a second...">
       <p>Some content or children or something.</p>
     </LoadingOverlay>
   );

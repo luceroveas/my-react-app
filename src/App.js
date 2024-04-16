@@ -14,8 +14,7 @@ function App() {
             {" "}
             Open-source code{" "}
           </a>
-          ", by Andrea Vea from{" "}
-          <a href="https://www.shecodes.io/">She Codes </a>
+          , by Andrea Vea from <a href="https://www.shecodes.io/">She Codes </a>
         </small>
       </header>
     </div>

@@ -7,16 +7,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Helloworld</h1>
+        <h1>Weather App</h1>
         <Weather />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <small>
+          <a href="https://github.com/luceroveas/my-react-app">
+            {" "}
+            Open-source code{" "}
+          </a>
+          ", by Andrea Vea from{" "}
+          <a href="https://www.shecodes.io/">She Codes </a>
+        </small>
       </header>
     </div>
   );

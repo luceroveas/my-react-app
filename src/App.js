@@ -3,14 +3,11 @@ import Weather from "./Weather";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1>Weather App</h1>
-          <Weather />
-        </header>
+        <Weather />
         <footer>
           This project was coded by{" "}
           <a href="https://main--fastidious-druid-af1a2f.netlify.app/">
@@ -27,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

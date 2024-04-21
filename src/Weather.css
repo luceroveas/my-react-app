@@ -29,11 +29,6 @@
   text-decoration: none;
 }
 
-.Weather cavnas {
-  margin-right: 10px;
-  margin-top: 5px;
-}
-
 .Weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
@@ -43,6 +38,10 @@
   display: inline-block;
 }
 
+.Weather cavnas {
+  margin: 10px auto;
+}
+
 .Weather .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
@@ -50,7 +49,6 @@
   position: relative;
   line-height: 1;
   top: -34px;
-  display: inline-block;
 }
 
 .Weather .container {

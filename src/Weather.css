@@ -25,11 +25,10 @@
   list-style: none;
 }
 
-.Weather img {
-  display: inline-block;
+.Weather cavnas {
   margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  margin-top: 5px;
+  display: inline-block;
 }
 
 .Weather .temperature {
@@ -47,5 +46,4 @@
   position: relative;
   line-height: 1;
   top: -34px;
-  margin-left: 0px;
 }

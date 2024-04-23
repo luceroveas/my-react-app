@@ -9,12 +9,18 @@ export default function App() {
         <Weather defaultCity="Denver" />
         <footer>
           This project was coded by{" "}
-          <a href="https://main--fastidious-druid-af1a2f.netlify.app/">
+          <a
+            href="https://main--fastidious-druid-af1a2f.netlify.app/"
+            rel="noopener noreferrer"
+          >
             {" "}
             Andrea Vea{" "}
           </a>{" "}
           and is{" "}
-          <a href="https://github.com/luceroveas/my-react-app">
+          <a
+            href="https://github.com/luceroveas/my-react-app"
+            rel="noopener noreferrer"
+          >
             {" "}
             open-sourced on GitHub{" "}
           </a>

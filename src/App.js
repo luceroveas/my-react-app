@@ -24,6 +24,13 @@ export default function App() {
             {" "}
             open-sourced on GitHub{" "}
           </a>
+          and
+          <a
+            href="https://stunning-blancmange-64e6f0.netlify.app/"
+            rel="noopener noreferrer"
+          >
+            {""} hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
